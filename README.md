@@ -17,6 +17,8 @@ gRPC is roughly 7 times faster than REST when receiving data & roughly 10 times 
 ### Code Generation: 
     Native Protoc Compiler
 
+![gRPC vs REST](./images/gRPC_vs_REST.png "gRPC vs REST")
+
 # When to Use gRPC APIs
 As for gRPC, most third-party tools continue to lack in-built features for gRPC compatibility. As such, gRPC is mostly relegated to building internal systems, i.e., infrastructures that are closed to external users. With that caveat in mind, gRPC APIs could be useful for the following circumstances: 
 
@@ -36,4 +38,3 @@ node server.js
 ```
 node client.js
 ```
-
