@@ -8,7 +8,7 @@ gRPC is roughly 7 times faster than REST when receiving data & roughly 10 times 
 ### Messaging Format: 
     Protobuf (Protocol Buffers)
 
-### Communication: 
+### Communication: (gRPC service supports different streaming combinations through HTTP/2)
     - Unary (no streaming)
     - Client-to-server streaming
     - Server-to-client streaming
@@ -16,9 +16,6 @@ gRPC is roughly 7 times faster than REST when receiving data & roughly 10 times 
 
 ### Code Generation: 
     Native Protoc Compiler
-
-A gRPC service supports different streaming combinations through HTTP/2:
-
 
 # When to Use gRPC APIs
 As for gRPC, most third-party tools continue to lack in-built features for gRPC compatibility. As such, gRPC is mostly relegated to building internal systems, i.e., infrastructures that are closed to external users. With that caveat in mind, gRPC APIs could be useful for the following circumstances: 
